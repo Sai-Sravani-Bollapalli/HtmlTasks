@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        input{
+            border-left: hidden;
+            border-top: hidden;
+            border-right: hidden;
+            font-family: Brush Script MT, Brush Script Std, cursive	;
+            font-size: medium;
+            text-align: center; 
+        }
+    .fname{
+            float: left;
+            width: 50%;
+        }
+        .size{
+            font-size:small;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .place{
+            float: left;
+           
+        }
+        .sub{
+            float:left;
+          
+        }
+        body{
+            padding:5px;
+            border: 3px solid black;
+            width:350px;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+            <div style="background:red; color:white; width:350px; text-align: center; word-spacing: 10px;" ><b>Yes! I want to subscribe <i>Mag-O-Zine</i></b></div>
+        </center> 
+             
+            <div class="fname">
+
+                <input type="text" id="fname" value="Joe" style="width:80%"><br>
+                <label for="fname" class="size">First Name</label>
+            </div>
+            <div>
+                <input type="text" id="lname" value="Schemegiggie" style="width:40%"><br>
+                <label for="lname" class="size">Last Name</label>
+            </div>
+            <div>
+                <input type="text" id="add"  value="1001 Washington Street" style="width:80%"><br>
+                <label for="add" class="size">Address</label>
+            </div>
+            <div class="place">
+                <input type="text" id="place"  value="Aputoma" style="width:70%"><br>
+                <label for="place" class="size">City</label>
+            </div>
+            <div class="place">
+                <input type="text" id="state"  value="CA" style="width:70%"><br>
+                <label for="state" class="size">State</label>
+            </div>
+            <div>
+                <input type="text" id="zip" style="width:25%" value="99999"><br>
+                <label for="zip" class="size">Zip</label>
+            </div>
+            <div class="sub">
+                <p ><b>Subscribe for:</b></p>
+            </div>
+            <div class="sub" style="padding-top: 15px;">
+            <input type="checkbox" checked id="cb1">
+            <label for="cb1" ><b>1 year($19.95)</b></label>
+            </div>
+            <div  style="padding-top: 15px;">
+                <input type="checkbox" id="cb2">
+                <label for="cb2" ><b>2 years($35.00)</b></label>
+            </div>
+
+            <div style="position:absolute"><b>Send me more information about</b></div><br>
+
+                <input type="checkbox" checked id="cb3" >
+                <label for="cb3" ><b>Computer-Zine</b></label><br>
+                <input type="checkbox" id="cb4">
+                <label for="cb4" ><b>Fishing-Zine</b></label><br>
+                <input type="checkbox" checked id="cb5">
+                <label for="cb5" ><b>Cat-O-Zine</b></label>
+           
+        </body>
+</html>
